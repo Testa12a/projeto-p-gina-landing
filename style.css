@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+
+#logo{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#titulo01{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+#titulo02{
+    margin-left: 150px;
+    margin-top: 35px;
+    padding-bottom: 100px;
+}
+    
+   #menuinicial{
+    background-image: url(imagens/plano\ de\ fundo\ menu.svg);
+    color: aliceblue;
+   }
+
+   #menuinformacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+   }
+
+.icone{
+   margin: 50px 0px 50px 100px;
+   padding: 25px;
+}
+
+.textoinformativo{
+    display: flex;
+    align-items: center;
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#video{
+    margin: 50px 25px 50px 100px;
+}
+
+#textovideo01{
+    color: #247BA0; 
+}
+
+#carrossel{
+    background-color:#247BA0;
+    text-align: center;
+    padding: 50px;
+}
+
+#textocarrossel{
+    color: #EAECE5;
+    font-size: 25px;
+}
+
+#cards{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.card{
+    width: 532px;
+    margin-top: 50px;
+}
+
+#setaesquerda{
+    display: none;
+}
+
+#bruna{
+    display: none;
+}
+
+.seta{
+    margin-top: 100%;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.6s;
+}
+
+#formulario{
+    text-align: center;
+}
+
+#texto-formulario{
+    color: #383838;
+    font-size: 25px;
+    margin: 25px;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    background-color:#EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+
+}
+
+button{
+    background-color:#247BA0;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer; 
+}
+
+button:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+    color: white;
+    background-color: #3195c0;
+    box-shadow: 0px 15px 20px #030607;
+}
